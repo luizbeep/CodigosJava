@@ -1,0 +1,60 @@
+1) O que são métodos HTTP?
+O protocolo HTTP define um conjunto de métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso
+
+2) Quais são os métodos HTTP mais utilizados atualmente?
+GET
+Essa é a requisição mais comum de todas. Através dessa requisição nós pedimos a representação de um recurso: que pode ser um arquivo html, xml, json, etc.
+
+POST
+O método POST é utilizado quando queremos criar um recurso. Quando usamos POST, os dados vão no corpo da requisição e não na URI.
+
+PUT
+Requisita que um recurso seja "guardado" na URI fornecida. Se o recurso já existir, ele deve ser atualizado. Se não existir, pode ser criado.
+
+DELETE
+Exclui o recurso especificado.
+
+3) Quais são os 2 principais métodos do HTTP? Qual é a diferença entre eles?
+Os 2 principais métodos do HTTP são o método GET e o método POST, o GET é utilizado para requisitar e o POST é utilizado para criar.
+
+4) O que são requisições HTTP? Quais os tipos?
+Requisições HTTP são mensagens enviadas pelo cliente para iniciar uma ação no servidor. Suas linhas iniciais contêm três elementos: GET, PUT ou POST
+
+5) Como funciona uma requisição?
+Requisições HTTP são mensagens enviadas pelo cliente para iniciar uma ação no servidor.
+
+6) O que é o método GET?
+É a requisição mais comum de todas. Através dessa requisição nós pedimos a representação de um recurso: que pode ser um arquivo html, xml, json, etc.
+
+7) Qual é o protocolo de internet para transferência segura, com uso de certificado digital, utilizado em sites de compras eletrônicas?
+É o protocolo SSL/TLS que funciona através de chaves públicas e privadas, além de chaves de sessão para cada conexão segura.
+
+8) Quais os principais métodos de uma requisição REST?
+Como principais características de uma requisição REST, podemos destacar:
+
+O método HTTP é utilizado para determinar a operação a ser realizada em um determinado recurso. Em geral, utiliza-se o GET para recuperar, POST para criar, PUT para alterar e DELETE para apagar;
+O recurso, por sua vez, é indicado na URL da requisição;
+Parâmetros podem ser passados na própria URL e/ou no corpo na requisição;
+Os tipos de dados utilizados na requisição e na resposta devem ser acordados entre o servidor e o(s) cliente(s). JSON e XML estão entre os tipos mais utilizados.
+
+9) Qual a diferença entre IPv4 e IPv6?
+O Protocolo de Internet versão 4 possui endereços no padrão 32 bits e sustenta cerca de 4 bilhões de combinações de endereços IP em todo o mundo. Já o IPv6 é a versão 6 do Protocolo de Internet, com endereços no padrão 128 bits, permitindo, portanto, cerca de 340 undecilhões de endereços.
+
+10) Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udp, smtp e ftp.
+O que é um HTTP?
+O HTTP (Hypertext Transfer Protocol ou Protocolo de Transferência de Hipertexto em português) é um protocolo que especifica como será a comunicação entre um navegador e um servidor web, sendo um dos principais da World Wide Web (WWW).
+
+O que é o TCP?
+ O TCP (Protocolo de Controle de Transmissão) é o responsável por quebrar uma mensagem em partes menores, enviando-as pela internet.
+
+O que é o IP?
+O IP (Internet Protocol) é o principal protocolo de comunicação da Internet. Ele é o responsável por endereçar e encaminhar os pacotes que trafegam pela rede mundial de computadores. Pacotes são os blocos de informações enviados na Internet e podem ser considerados como as cartas enviadas pelo serviço de correios.
+
+O que é o UDP?
+O User Datagram Protocol é um protocolo simples da camada de transporte. Ele é descrito na RFC 768 e permite que a aplicação envie um datagrama encapsulado num pacote IPv4 ou IPv6 a um destino, porém sem qualquer tipo de garantia que o pacote chegue corretamente. O protocolo UDP não é confiável.
+
+O que é o SMTP?
+Protocolo de Transferência de Correio Simples é o protocolo padrão de envio de mensagens de correio eletrônico através da Internet entre dois dispositivos computacionais
+
+O que é o FTP?
+Protocolo de Transferência de Arquivos é um protocolo padrão/genérico independente de hardware sobre um modo de transferir arquivos/ficheiros e também é um programa de transferência.

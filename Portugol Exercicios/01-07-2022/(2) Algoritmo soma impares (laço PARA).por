@@ -7,7 +7,7 @@ programa
 		inteiro soma = 0
 
 		para(contador=0; contador<=500; contador++){
-			se (contador % 3 == 0){
+			se (contador % 3 == 0 e contador % 2 != 0){
 				soma = soma + contador
 				
 	    	}

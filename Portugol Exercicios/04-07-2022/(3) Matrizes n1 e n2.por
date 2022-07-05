@@ -15,7 +15,7 @@ programa
 
 		
 
-	     para(l = 0; l <= 3; l++){
+	    para(l = 0; l <= 3; l++){
 		para(c = 0; c <= 5; c++){
 	     escreva("Digite os valores da matriz n1: ")
 	     contador++
@@ -36,7 +36,7 @@ programa
 		}
 	    }
 	     
-		para(l = 0; l <= 3; l++){
+	    para(l = 0; l <= 3; l++){
 		para(c = 0; c <= 5; c++){
 			(m1[l][c]) = n1[l][c]+n2[l][c]
           
@@ -45,7 +45,7 @@ programa
 		}	
 	   }
 
-	   para(l = 0; l <= 3; l++){
+	    para(l = 0; l <= 3; l++){
 		para(c = 0; c <= 5; c++){
               (m2[l][c]) = n1[l][c]-n2[l][c]
 		} 
@@ -53,22 +53,22 @@ programa
 
          escreva("-Matriz M1-\n")
          
-	    para(l = 0; l <= 3; l++){
-	     	para(c = 0; c <= 5; c++){
-	     		escreva(m1[l][c], " | ")
+	   para(l = 0; l <= 3; l++){
+	    para(c = 0; c <= 5; c++){
+	     	escreva(m1[l][c], " | ")
 	     	}
 	     	
 	     	escreva("\n")
 	     }
 
-	     escreva("\n-Matriz M2-\n")
+	          escreva("\n-Matriz M2-\n")
 
-	      para(l = 0; l <= 3; l++){
-	     	para(c = 0; c <= 5; c++){
+	     para(l = 0; l <= 3; l++){
+	      para(c = 0; c <= 5; c++){
 	     		escreva(m2[l][c], " | ")
 	     	}
 	     	
-	     	escreva("\n")
+	         escreva("\n")
 	     }
 
 	}
@@ -79,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 156; 
+ * @POSICAO-CURSOR = 204; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {n1, 7, 10, 2}-{n2, 9, 10, 2}-{m1, 11, 10, 2}-{m2, 12, 10, 2};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

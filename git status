@@ -1,0 +1,84 @@
+[33mcommit 05b5298a3abf0fa3d67df58d1613207be4c417b5[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Thu Jul 14 17:29:13 2022 -0300
+
+    Exercicios 14-07-2022 POO (Polimorfismo)
+
+[33mcommit 73c1e6655e0ca3479f4ff579aec7608fec6ded37[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Wed Jul 13 13:35:50 2022 -0300
+
+    Exercicios de orientação a objetos 13-07-2022
+
+[33mcommit 556be374e2e6dadfeee383efe13e61b2f0b39b46[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Tue Jul 12 17:38:17 2022 -0300
+
+    Exercicios Java - Vetores e Matrizes - 12-07-2022
+
+[33mcommit bd20e009bf562784e6ec9acd025dff1911493f63[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Mon Jul 11 15:12:31 2022 -0300
+
+    Exercicios Java de laços 11-07-2022
+
+[33mcommit a5c2d1e69cd56f15a60ee67264ba7112c967338e[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Fri Jul 8 15:57:23 2022 -0300
+
+    Exercicios Java - laços de decisão
+
+[33mcommit f8196f7ac48fd0b797610a5433aa750ccf1c7f5a[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Tue Jul 5 15:30:57 2022 -0300
+
+    Exercicios Portugol
+
+[33mcommit a1a437488c22e40e55881243424fcaedcd89618d[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Tue Jul 5 15:29:10 2022 -0300
+
+    Exercicios Portugol
+
+[33mcommit dd36e9d7847a72298f94b889e7624153077e3840[m
+Merge: 73cad16 22079e2
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Mon Jul 4 19:48:15 2022 -0300
+
+    Merge branch 'main' of https://github.com/luizbeep/CodigosJava
+
+[33mcommit 73cad16643ce5c54061b77e676688eee591ae64e[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Mon Jul 4 19:45:43 2022 -0300
+
+    Exercicios Portugol
+
+[33mcommit 22079e2cc832539772057717687c9664da6f523e[m
+Author: luizbeep <83309678+luizbeep@users.noreply.github.com>
+Date:   Fri Jul 1 16:52:13 2022 -0300
+
+    Update (2) Algoritmo soma impares (laço PARA).por
+
+[33mcommit a5a8bdf3966105c32843cf3e100e330773f7a8da[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Fri Jul 1 14:46:25 2022 -0300
+
+    Exercicios Portugol - Laços de Repetição
+
+[33mcommit 65f61ed15680bdf26b726964686dac6448633e6d[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Thu Jun 30 16:07:20 2022 -0300
+
+    Exercicios Portugol 30-06-2022
+
+[33mcommit af38ce2b2206f4417cd81e6440df89d281ea1f99[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Wed Jun 29 13:57:17 2022 -0300
+
+    Exercicios HTTP 29-06-2022
+
+[33mcommit 1e88dc195a4f67a2ffca8dfece4dd7e270ebc9b8[m
+Author: Luiz <lg.pradoalencar@gmail.com>
+Date:   Tue Jun 28 13:04:27 2022 -0300
+
+    primeiro commit

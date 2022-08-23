@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* A propriedade CSS nos permite incluir o padding e o 
+					border na largura e altura total de um elemento */
+}
+
+.corkibackground{
+    width: 100vw;   /* Define que essa classe ocupa toda a largura da tela do navegado */
+    height: 100vh;  /* Define que essa classe ocupa toda a altura da tela do navegado */
+
+    display: flex;  /* Define a visualização da classe para Flex*/
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+
+
+    background-image: url(../assets/corki.jpg); /* Define o plano de fundo da classe com uma imagem*/
+    background-size: cover;     /* Define o tamanho do plano de fundo, no caso a imagem será mostrada de forma inteira na classe */
+}
+
+.corki{
+    width: 75vw;   /* Define que essa classe ocupa toda a largura da tela do navegado */
+    height: 75vh;  /* Define que essa classe ocupa toda a altura da tela do navegado */
+
+    display: flex;  /* Define a visualização da classe para Flex*/
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+
+    background-image: url(../assets/corki.jpg); /* Define o plano de fundo da classe com uma imagem*/
+    background-size: cover;     /* Define o tamanho do plano de fundo, no caso a imagem será mostrada de forma inteira na classe */
+}
+
+
+.glass{
+    /* Define que a Borda da DIV tenha 10px */
+    border: 0px solid #ffffff50;
+
+    /* Prop. que define um filtro que colocará um blur no fundo da classe */     
+    backdrop-filter: blur(16px);
+}
+
+
+.card{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;  /* Eixo horizontal */
+    align-items: center;    /* Eixo Vertical */
+}
+
+.titulo{
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.493);
+
+
+    width: 100vw;   /* Define que essa classe ocupa toda a largura da tela do navegado */
+
+    font-weight: bold;
+    color: rgb(247, 247, 247);
+
+    justify-content: center; /* horizontal */
+
+    font-family: Helvetica;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+
+    display: flex;
+
+}
+
+.lore{
+    width: 40vw;   /* Define que essa classe ocupa toda a largura da tela do navegado */
+    height: 80vh;  /* Define que essa classe ocupa toda a altura da tela do navegado */
+
+    display: flex;  /* Define a visualização da classe para Flex*/
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    background-color: rgba(112, 67, 0, 0.651);
+    background-size: cover;     /* Define o tamanho do plano de fundo, no caso a imagem será mostrada de forma inteira na classe */
+}
+
+.loretext{
+    width: 40rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgb(247, 247, 247);
+    justify-content: center; /* horizontal */
+    font-family: Helvetica;
+    display: flex;
+     
+    text-align: left;
+    padding: 5rem;
+}
+
+.container{
+        display: inline;
+        
+
+    }
+
+    .titulolore{
+        font-size: 1.6rem;
+        background-color: rgb(107, 66, 5);
+    
+        width: 100vw;   /* Define que essa classe ocupa toda a largura da tela do navegado */
+    
+        font-weight: bold;
+        color: rgb(247, 247, 247);
+    
+        justify-content: center; /* horizontal */
+        align-items: center; /* vertical */
+    
+        font-family: Helvetica;
+    
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+    
+        display: flex;
+    
+    }
+
+    .button {
+        background-color: #8b5b00; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+
+        font-weight: bold;
+
+        justify-content: center; /* horizontal */
+        align-items: center; /* vertical */
+
+        text-decoration: none;
+        display: flex;
+        font-size: 2rem;
+    }
+
+    .box{
+        background-color: #8b5b00;
+        width: 300px;
+        border: 15px solid rgb(0, 0, 0);
+        padding: 50px;
+        margin: 20px;
+    }

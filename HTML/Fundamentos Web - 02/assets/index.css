@@ -8,24 +8,48 @@
 .corkibackground{
     width: 100vw;   /* Define que essa classe ocupa toda a largura da tela do navegado */
     height: 100vh;  /* Define que essa classe ocupa toda a altura da tela do navegado */
-
     display: flex;  /* Define a visualização da classe para Flex*/
     justify-content: center; /* horizontal */
     align-items: center; /* vertical */
-
-
     background-image: url(../assets/corki.jpg); /* Define o plano de fundo da classe com uma imagem*/
     background-size: cover;     /* Define o tamanho do plano de fundo, no caso a imagem será mostrada de forma inteira na classe */
+}
+
+.menudiv{
+    background-color: #61532f;
+    text-align: center; 
+    padding: 12px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.6);
+    
+}
+
+#menu li{
+  display: inline;
+  
+}
+
+#menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 3rem;
+    padding: 50px;
+    font-size: 30px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#menu li a:hover{
+    color:rgb(221, 221, 221)
 }
 
 .corki{
     width: 75vw;   /* Define que essa classe ocupa toda a largura da tela do navegado */
     height: 75vh;  /* Define que essa classe ocupa toda a altura da tela do navegado */
-
     display: flex;  /* Define a visualização da classe para Flex*/
     justify-content: center; /* horizontal */
     align-items: center; /* vertical */
-
+    border-radius: 5%;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.6);
     background-image: url(../assets/corki.jpg); /* Define o plano de fundo da classe com uma imagem*/
     background-size: cover;     /* Define o tamanho do plano de fundo, no caso a imagem será mostrada de forma inteira na classe */
 }
@@ -52,20 +76,13 @@
 .titulo{
     font-size: 2rem;
     background-color: rgba(0, 0, 0, 0.493);
-
-
     width: 100vw;   /* Define que essa classe ocupa toda a largura da tela do navegado */
-
     font-weight: bold;
     color: rgb(247, 247, 247);
-
     justify-content: center; /* horizontal */
-
     font-family: Helvetica;
-
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000;
-
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.781);
     display: flex;
 
 }
@@ -81,17 +98,23 @@
     background-size: cover;     /* Define o tamanho do plano de fundo, no caso a imagem será mostrada de forma inteira na classe */
 }
 
+.lorecontainer{
+    background-color: rgba(0, 0, 0, 0.568);
+
+}
+
 .loretext{
     width: 40rem;
-    font-size: 1rem;
-    background-color: rgba(0, 0, 0, 0.493);
+    font-size: 1.1rem;
     color: rgb(247, 247, 247);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.781);
     justify-content: center; /* horizontal */
     font-family: Helvetica;
     display: flex;
      
     text-align: left;
-    padding: 5rem;
+    padding: 3rem;
 }
 
 .container{
@@ -114,7 +137,7 @@
     
         font-family: Helvetica;
     
-        -webkit-text-stroke-width: 1.2px;
+        -webkit-text-stroke-width: 3px;
         -webkit-text-stroke-color: rgb(0, 0, 0);
     
         display: flex;
@@ -127,12 +150,9 @@
         color: white;
         padding: 15px 32px;
         text-align: center;
-
         font-weight: bold;
-
         justify-content: center; /* horizontal */
         align-items: center; /* vertical */
-
         text-decoration: none;
         display: flex;
         font-size: 2rem;
